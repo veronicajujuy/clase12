@@ -3,7 +3,7 @@ let autosImportados = require("./autos");
 const concesionaria = {
   /* completar */
   autos: autosImportados,
-  buscarAuto: function (patente) {
+  buscarAuto: function holaVero (patente) {
     let encontrado = this.autos.find(function (item) {
       return item.patente === patente;
     });
